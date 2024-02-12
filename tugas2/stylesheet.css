@@ -14,9 +14,7 @@ section {
 
 
 nav ul li a { color: red; }
-nav {
-    flex:1;
-}
+
 body {
     margin: 10;
     padding: 0;
@@ -26,7 +24,11 @@ body {
     min-height: 100vh; 
     font-family: Arial, sans-serif;
   }
-  
+
+nav {
+    flex:1;
+    margin : 20px;
+}
 main {
     flex: 1; 
     margin: 20px; 
