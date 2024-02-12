@@ -1,41 +1,39 @@
 #judul {
     color: darkslategray;
 }
+
 #subjudul {
     color: gray;
 }
-body, h1, h2, h3, p, ul, li {
-    margin: 10;
-    padding: 10;
-}
+
 section {
-    margin:10;
+    margin: 10px;
 }
 
-
-nav ul li a { color: red; }
+nav ul li a { 
+    color: red; 
+}
 
 body {
     margin: 10;
     padding: 0;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     min-height: 100vh; 
     font-family: Arial, sans-serif;
-  }
+}
 
 nav {
-    flex: 1;
+    margin: 30px;
 }
+
 main {
-    flex: 1; 
-    margin: 20px; 
-  }
+    margin: 30px;
+}
+
 footer {
-    flex: 1;
-    margin-top: 50px; 
-    background-color: #f0f0f0;
-    padding: 10px;
+    margin-top: 200px; 
+    padding: 20px;
     text-align: left;
-  }
+}
